@@ -1,0 +1,80 @@
+.main {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.main__row {
+	display: flex;
+}
+
+/*Menu*/
+.colum-2 {
+	background: #000;
+	color: #fff;
+	width: 12%;
+	height: 1000px;
+}
+
+.main .menu {
+	padding-left: 0px;
+}
+
+.main .menu .menu-item {
+	list-style: none;
+	height: 40px;
+	line-height: 35px;
+	border-bottom: 1px solid #fff;
+	padding-left: 15px;
+}
+
+/*Content*/
+.main .colum-10 {
+	width: 80%;
+	text-align: center;
+}
+
+.main .colum-10 .image {
+	width: 310;
+	height: 122px;
+}
+
+.main .header {
+	width: 80%;
+	height: 300px;
+	background: #C8C6C6;
+	margin: auto;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.main .header__title {
+	font-weight: bold;
+	font-size: 17px;
+	padding-bottom: 20px;
+}
+
+.main .header__para {
+	text-align: center;
+}
+
+/*Post*/
+.posts {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.posts .post-title {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.posts .post-content {
+	display: flex;
+}
+
+.posts .post-img {
+	width: 100px;
+	height: 100px;
+}
